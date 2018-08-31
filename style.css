@@ -27,7 +27,7 @@ h2{
 .content{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4,150px);
+    grid-template-rows: repeat(4,180px);
     height: 100%;
     color: white;  
     
@@ -42,45 +42,53 @@ p{
     color:black;
     font-size:15px;
 }
-.boats, .building, .human, .tree{
+.basketball, .bbq, .beer, .game{
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: 30px 1fr;
     height:100%;
 }
-.imgboats{
+.imgbasketball{
     display:grid;
     background-size: 500px;
-    background-position: 40% 60%;
-    background-image:url("images/lake.jpg");
+    background-position: 50% 50%;
+    background-image:url("images/basketball.PNG");
     border-top:1px dotted black;
     background-repeat:no-repeat;
+    filter:grayscale(100%);
+    opacity: 0.7;
 }
-.imgbuilding{
+.imgbbq{
     display:grid;
     background-size: 500px;
-    background-position: 43% 57%;
-    background-image:url("images/empire.jpg");
+    background-position: 43% 45%;
+    background-image:url("images/bbq.PNG");
     border-top:1px dotted black;
     background-repeat:no-repeat;
+    filter:grayscale(100%);
+    opacity: 0.7;
 }
-.imghuman{
+.imgbeer{
     display:grid;
     background-size: 500px;
-    background-position: 40% 53%;
-    background-image:url("images/person.jpg");
+    background-position: 20% 60%;
+    background-image:url("images/beer.PNG");
     border-top:1px dotted black;
     background-repeat:no-repeat;
+    filter:grayscale(100%);
+    opacity: 0.7;
 }
-.imgtree{
+.imggame{
     display:grid;
     background-size: 500px;
     background-position: 48% 55%;
-    background-image:url("images/tree.jpg");
+    background-image:url("images/game.PNG");
     border-top:1px dotted black;
     background-repeat:no-repeat;
+    filter:grayscale(100%);
+    opacity: 0.7;
 }
-.geo, .sand, .bridge,.lens{
+.cat, .dog, .cook,.lego{
     display:none;
 }
 
@@ -103,7 +111,7 @@ p{
         color:black;
         font-size:15px;
     }
-    .geo, .sand, .bridge,.lens{
+    .cat, .dog, .cook,.lego{
         display:flex;
     }
 
@@ -116,47 +124,57 @@ p{
         border:1px solid black;
     }
 
-    .imggeo{
+    .imgcat{
         display:grid;
-        background-size: 600px;
+        background-size: 400px;
         background-position: 62% 60%;
-        background-image:url("images/geo.jpg");
+        background-image:url("images/cat.PNG");
         border-top:1px dotted black;
         background-repeat:no-repeat;
+        filter:grayscale(100%);
+        opacity: 0.7;
     }
-    .imgsand{
+    .imgdog{
         display:grid;
-        background-size: 500px;
-        background-position: 47% 55%;
-        background-image:url("images/sand.jpg");
+        background-size: 400px;
+        background-position: 50% 59%;
+        background-image:url("images/dog.PNG");
         border-top:1px dotted black;
         background-repeat:no-repeat;
+        filter:grayscale(100%);
+        opacity: 0.7;
     }
-    .imgbridge{
+    .imgcook{
         display:grid;
-        background-size: 500px;
+        background-size: 400px;
+        background-position: 50% 45%;
+        background-image:url("images/cook.PNG");
+        border-top:1px dotted black;
+        background-repeat:no-repeat;
+        filter:grayscale(100%);
+        opacity: 0.7;
+    }
+    .imglego{
+        display:grid;
+        background-size: 400px;
         background-position: 40% 60%;
-        background-image:url("images/bridge.jpg");
+        background-image:url("images/lego.PNG");
         border-top:1px dotted black;
         background-repeat:no-repeat;
+        filter:grayscale(100%);
+        opacity: 0.7;
     }
-    .imglens{
-        display:grid;
-        background-size: 500px;
-        background-position: 40% 60%;
-        background-image:url("images/lens.jpg");
-        border-top:1px dotted black;
-        background-repeat:no-repeat;
-    }
-    .imgbuilding{
+    .imgbbq{
         display:grid;
         background-size: 500px;
         background-position: 43% 48%;
-        background-image:url("images/empire.jpg");
+        background-image:url("images/bbq.PNG");
         border-top:1px dotted black;
         background-repeat:no-repeat;
+        filter:grayscale(100%);
+        opacity: 0.7;
     }
-    .imgboats,.imgbuilding,.imghuman,.imgtree{
+    .imgbasketball,.imgbbq,.imgbeer,.imggame{
         border-top:1px dotted black;
     }
 }
